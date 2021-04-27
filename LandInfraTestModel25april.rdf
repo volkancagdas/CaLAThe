@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xml:lang="en">
+	<skos:ConceptScheme rdf:about="http://docs.opengeospatial.org/is/15-111r1/15-111r1.html">
+		<skos:prefLabel>LandInfraTestModel</skos:prefLabel>
+		<dc:title>LandInfraDefinitionsCodelists</dc:title>
+		<dc:description>A test model for SKOS rendering of definitions and code lists of the OGC Land and Infrastructure Conceptual Model Standard (LandInfra) -
+		Here are only rendered a few terms/concepts with definitions of the Survey and the Land division sections of LandInfra, and three of LandInfra's code lists.
+		The terms with definitions is rendered within one Concept Scheme. The code lists are rendered each in its individual Concept scheme. All Concept schemes are rendered within one file. The mutual relation between Concept schemes follows the model of the CaLAThe thesaurus, created by Volkan Cagdas and Erik Stubkjaer -
+		</dc:description>
+		<dc:creator>Erik Stubkjær</dc:creator>
+		<dc:creator>Volkan Cagdas</dc:creator>
+		<dc:date>2021-04-21</dc:date>
+		<dct:issued></dct:issued>
+		<skos:hasTopConcept rdf:resource="http://OGCDefinitionServer/LandInfra/Survey"/>
+		<skos:hasTopConcept rdf:resource="http://OGCDefinitionServer/LandInfra/LandDivision"/>
+		<skos:hasTopConcept rdf:resource="http://OGCDefinitionServer/LandInfra/CodeList"/>
+		</skos:ConceptScheme>
+
+		<skos:ConceptScheme rdf:about="http://OGCDefinitionServer/LandInfra/StringDirectionCL">
+		<skos:prefLabel>StringDirectionCL</skos:prefLabel>
+		<dc:title>LandInfraCodelist_StringDirection</dc:title>
+		<dc:description>Each code list is rendered within its own Concept Scheme, to allow for easy tranfer of the code list dataset	</dc:description>
+		<dc:creator>Erik Stubkjær</dc:creator>
+		<dc:creator>Volkan Cagdas</dc:creator>
+		<dc:date>2021-04-21</dc:date>
+		<dct:issued></dct:issued>
+		<skos:hasTopConcept rdf:resource="http://OGCDefinitionServer/LandInfra/StringDirection"/>
+		</skos:ConceptScheme>
+
+		<skos:ConceptScheme rdf:about="http://OGCDefinitionServer/LandInfra/BuildingPartTypeCL">
+		<skos:prefLabel>BuildingPartTypeCL</skos:prefLabel>
+		<dc:title>LandInfraCodelist_BuildingPartType</dc:title>
+		<dc:description>Code list specific Concept Scheme</dc:description>
+		<dc:creator>Erik Stubkjær</dc:creator>
+		<dc:creator>Volkan Cagdas</dc:creator>
+		<dc:date>2021-04-24</dc:date>
+		<dct:issued></dct:issued>
+		<skos:hasTopConcept rdf:resource="http://OGCDefinitionServer/LandInfra/BuildingPartType"/>
+		</skos:ConceptScheme>
+
+		<skos:ConceptScheme rdf:about="http://OGCDefinitionServer/LandInfra/SurveyTypeCL">
+		<skos:prefLabel>SurveyTypeCL</skos:prefLabel>
+		<dc:title>LandInfraCodelist_SurveyType</dc:title>
+		<dc:description>Code list specific Concept Scheme</dc:description>
+		<dc:creator>Erik Stubkjær</dc:creator>
+		<dc:creator>Volkan Cagdas</dc:creator>
+		<dc:date>2021-04-24</dc:date>
+		<dct:issued></dct:issued>
+		<skos:hasTopConcept rdf:resource="http://OGCDefinitionServer/LandInfra/SurveyType"/>
+		</skos:ConceptScheme>
+
+		<skos:Concept rdf:about="http://OGCDefinitionServer/LandInfra/Survey">
+		<skos:prefLabel>Survey</skos:prefLabel>
+		<skos:definition></skos:definition>
+		<skos:changeNote></skos:changeNote>
+		<skos:inScheme rdf:resource="http://docs.opengeospatial.org/is/15-111r1/15-111r1.html"/>
+		<skos:topConceptOf rdf:resource="http://docs.opengeospatial.org/is/15-111r1/15-111r1.html"/>-->
+		<skos:narrower rdf:resource="http://OGCDefinitionServer/LandInfra/Antenna"/>
+		<skos:narrower rdf:resource="http://OGCDefinitionServer/LandInfra/GlobalPositioningSystemGPS"/>
+		<skos:narrower rdf:resource="http://OGCDefinitionServer/LandInfra/Observation"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="http://OGCDefinitionServer/LandInfra/LandDivision">
+		<skos:prefLabel>Land division</skos:prefLabel>
+		<skos:definition></skos:definition>
+		<skos:changeNote></skos:changeNote>
+		<skos:inScheme rdf:resource="http://docs.opengeospatial.org/is/15-111r1/15-111r1.html"/>
+		<skos:topConceptOf rdf:resource="http://docs.opengeospatial.org/is/15-111r1/15-111r1.html"/>
+		<skos:narrower rdf:resource="http://OGCDefinitionServer/LandInfra/AdministrativeDivision"/>
+		<skos:narrower rdf:resource="http://OGCDefinitionServer/LandInfra/BuildingPart"/>
+		<skos:narrower rdf:resource="http://OGCDefinitionServer/LandInfra/Boundary"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="http://OGCDefinitionServer/LandInfra/CodeList">
+		<skos:prefLabel>LandInfra code lists</skos:prefLabel>
+		<skos:definition></skos:definition>
+		<skos:changeNote></skos:changeNote>
+		<skos:inScheme rdf:resource="http://docs.opengeospatial.org/is/15-111r1/15-111r1.html"/>
+		<skos:topConceptOf rdf:resource="http://docs.opengeospatial.org/is/15-111r1/15-111r1.html"/>
+		<skos:narrower rdf:resource="http://OGCDefinitionServer/LandInfra/BuildingPartType"/>
+		<skos:narrower rdf:resource="http://OGCDefinitionServer/LandInfra/StringDirection"/>
+		<skos:narrower rdf:resource="http://OGCDefinitionServer/LandInfra/SurveyType"/>
+		</skos:Concept>
+
+	<skos:Concept rdf:about="http://OGCDefinitionServer/LandInfra/Antenna">
+		<skos:prefLabel>Antenna</skos:prefLabel>
+		<skos:definition>electronic equipment to transmit and/or receive electromagnetic waves cf. electronic distance meter (4.6.3), geodetic GPS receiver (4.6.5)<br/>
+  [ISO/TS 19156, definition 4.10]</skos:definition>
+		<skos:changeNote></skos:changeNote>
+		<skos:inScheme rdf:resource="http://docs.opengeospatial.org/is/15-111r1/15-111r1.html"/>
+		<skos:broader rdf:resource="http://OGCDefinitionServer/LandInfra/Survey"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="http://OGCDefinitionServer/LandInfra/GlobalPositioningSystemGPS">
+		<skos:prefLabel>Global Positioning System GPS</skos:prefLabel>
+		<skos:definition>U.S. Department of Defense navigation system of high accuracy<br/>
+  [ISO 9849-1:2000]</skos:definition>
+		<skos:changeNote></skos:changeNote>
+		<skos:inScheme rdf:resource="http://docs.opengeospatial.org/is/15-111r1/15-111r1.html"/>
+		<skos:broader rdf:resource="http://OGCDefinitionServer/LandInfra/Survey"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="http://OGCDefinitionServer/LandInfra/Observation">
+		<skos:prefLabel>Observation</skos:prefLabel>
+		<skos:definition>act of measuring or otherwise determining the value of a property<br/>
+  [ISO/TS 19156, definition 4.10]</skos:definition>
+		<skos:changeNote></skos:changeNote>
+		<skos:inScheme rdf:resource="http://docs.opengeospatial.org/is/15-111r1/15-111r1.html"/>
+		<skos:broader rdf:resource="http://OGCDefinitionServer/LandInfra/Survey"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="http://OGCDefinitionServer/LandInfra/AdministrativeDivision">
+		<skos:prefLabel>Administrative division</skos:prefLabel>
+		<skos:definition>Division of state territory according to political, judicial, or
+executive points of view.<br/>
+Note 1 to entry: May include other man-made divisions, e.g.
+according to permitted land use, but excludes drainage basins
+and other divisions derived from material of the Earth.</skos:definition>
+		<skos:changeNote></skos:changeNote>
+		<skos:inScheme rdf:resource="http://docs.opengeospatial.org/is/15-111r1/15-111r1.html"/>
+		<skos:broader rdf:resource="http://OGCDefinitionServer/LandInfra/LandDivision"/>
+	</skos:Concept>
+
+<skos:Concept rdf:about="http://OGCDefinitionServer/LandInfra/BuildingPart">
+		<skos:prefLabel>Building part</skos:prefLabel>
+		<skos:definition>Floor-related part of a multi-storage building, subdivided
+according to management and use by a lawful process.<br/>Compares to ISO 19152:2012 4.1.6 building unit, and to
+IfcSpatialElement</skos:definition>
+		<skos:changeNote></skos:changeNote>
+		<skos:inScheme rdf:resource="http://docs.opengeospatial.org/is/15-111r1/15-111r1.html"/>
+		<skos:broader rdf:resource="http://OGCDefinitionServer/LandInfra/LandDivision"/>
+	</skos:Concept>
+
+<skos:Concept rdf:about="http://OGCDefinitionServer/LandInfra/Boundary">
+		<skos:prefLabel>Boundary</skos:prefLabel>
+		<skos:definition>Set that represents the limit of an entity<br/>Note 1 to entry: Boundary is most commonly used in the context
+of geometry, where the set is a collection of points or a collection of
+objects that represent those points. In other arenas, the term is used
+metaphorically to describe the transition between an entity and the
+rest of its domain of discourse.<br/>
+[ISO 19107:2003, 4.4; ISO 19152:2012 4.1.3]</skos:definition>
+		<skos:changeNote></skos:changeNote>
+		<skos:inScheme rdf:resource="http://docs.opengeospatial.org/is/15-111r1/15-111r1.html"/>
+		<skos:broader rdf:resource="http://OGCDefinitionServer/LandInfra/LandDivision"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="http://OGCDefinitionServer/LandInfra/BuildingPartType">
+		<skos:prefLabel>BuildingPartType</skos:prefLabel>
+		<skos:inScheme rdf:resource="http://OGCDefinitionServer/LandInfra/BuildingPartTypeCL"/>
+		<skos:broader rdf:resource="http://OGCDefinitionServer/LandInfra/CodeList"/>
+		<skos:topConceptOf rdf:resource="http://OGCDefinitionServer/LandInfra/CodeList"/>
+		<skos:narrower rdf:resource="http://OGCDefinitionServer/LandInfra/condominiumMainPart"/>
+		<skos:narrower rdf:resource="http://OGCDefinitionServer/LandInfra/condominiumAccessoryPart"/>
+		<skos:narrower rdf:resource="http://OGCDefinitionServer/LandInfra/jointAccessFacility"/>
+		<skos:narrower rdf:resource="http://OGCDefinitionServer/LandInfra/jointOtherFacility"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="http://OGCDefinitionServer/LandInfra/condominiumMainPart">
+		<skos:prefLabel>condominiumMainPart</skos:prefLabel>
+		<skos:inScheme rdf:resource="http://OGCDefinitionServer/LandInfra/BuildingPartTypeCL"/>
+		<skos:broader rdf:resource="http://OGCDefinitionServer/LandInfra/BuildingPartType"/>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://OGCDefinitionServer/LandInfra/condominiumAccessoryPart">
+		<skos:prefLabel>condominiumAccessoryPart</skos:prefLabel>
+		<skos:inScheme rdf:resource="http://OGCDefinitionServer/LandInfra/BuildingPartTypeCL"/>
+		<skos:broader rdf:resource="http://OGCDefinitionServer/LandInfra/BuildingPartType"/>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://OGCDefinitionServer/LandInfra/jointAccessFacility">
+		<skos:prefLabel>jointAccessFacility</skos:prefLabel>
+		<skos:inScheme rdf:resource="http://OGCDefinitionServer/LandInfra/BuildingPartTypeCL"/>
+		<skos:broader rdf:resource="http://OGCDefinitionServer/LandInfra/BuildingPartType"/>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://OGCDefinitionServer/LandInfra/jointOtherFacility">
+		<skos:prefLabel>jointOtherFacility</skos:prefLabel>
+		<skos:inScheme rdf:resource="http://OGCDefinitionServer/LandInfra/BuildingPartTypeCL"/>
+		<skos:broader rdf:resource="http://OGCDefinitionServer/LandInfra/BuildingPartType"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="http://OGCDefinitionServer/LandInfra/StringDirection">
+		<skos:prefLabel>StringDirection</skos:prefLabel>
+		<skos:inScheme rdf:resource="http://OGCDefinitionServer/LandInfra/StringDirectionCL"/>
+		<skos:broader rdf:resource="http://OGCDefinitionServer/LandInfra/CodeList"/>
+		<skos:topConceptOf rdf:resource="http://OGCDefinitionServer/LandInfra/CodeList"/>
+		<skos:narrower rdf:resource="http://OGCDefinitionServer/LandInfra/forward"/>
+		<skos:narrower rdf:resource="http://OGCDefinitionServer/LandInfra/reverse"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="http://OGCDefinitionServer/LandInfra/forward">
+		<skos:prefLabel>forward</skos:prefLabel>
+		<skos:inScheme rdf:resource="http://OGCDefinitionServer/LandInfra/StringDirectionCL"/>
+		<skos:broader rdf:resource="http://OGCDefinitionServer/LandInfra/StringDirection"/>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://OGCDefinitionServer/LandInfra/reverse">
+		<skos:prefLabel>reverse</skos:prefLabel>
+		<skos:inScheme rdf:resource="http://OGCDefinitionServer/LandInfra/StringDirectionCL"/>
+		<skos:broader rdf:resource="http://OGCDefinitionServer/LandInfra/StringDirection"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="http://OGCDefinitionServer/LandInfra/SurveyType">
+		<skos:prefLabel>SurveyType</skos:prefLabel>
+		<skos:inScheme rdf:resource="http://OGCDefinitionServer/LandInfra/SurveyTypeCL"/>
+		<skos:broader rdf:resource="http://OGCDefinitionServer/LandInfra/CodeList"/>
+		<skos:topConceptOf rdf:resource="http://OGCDefinitionServer/LandInfra/CodeList"/>
+		<skos:narrower rdf:resource="http://OGCDefinitionServer/LandInfra/surveyed"/>
+		<skos:narrower rdf:resource="http://OGCDefinitionServer/LandInfra/compiled"/>
+		<skos:narrower rdf:resource="http://OGCDefinitionServer/LandInfra/computed"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="http://OGCDefinitionServer/LandInfra/surveyed">
+		<skos:prefLabel>surveyed</skos:prefLabel>
+		<skos:inScheme rdf:resource="http://OGCDefinitionServer/LandInfra/SurveyTypeCL"/>
+		<skos:broader rdf:resource="http://OGCDefinitionServer/LandInfra/SurveyType"/>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://OGCDefinitionServer/LandInfra/compiled">
+		<skos:prefLabel>compiled</skos:prefLabel>
+		<skos:inScheme rdf:resource="http://OGCDefinitionServer/LandInfra/SurveyTypeCL"/>
+		<skos:broader rdf:resource="http://OGCDefinitionServer/LandInfra/SurveyType"/>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://OGCDefinitionServer/LandInfra/computed">
+		<skos:prefLabel>computed</skos:prefLabel>
+		<skos:inScheme rdf:resource="http://OGCDefinitionServer/LandInfra/SurveyTypeCL"/>
+		<skos:broader rdf:resource="http://OGCDefinitionServer/LandInfra/SurveyType"/>
+	</skos:Concept>
+
+</rdf:RDF>
