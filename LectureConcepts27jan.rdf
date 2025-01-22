@@ -1,0 +1,358 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/est/ontologies/2025/0/untitled-ontology-11/"
+     xml:base="http://www.semanticweb.org/est/ontologies/2025/0/untitled-ontology-11/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <owl:Ontology rdf:about="https://cadastraltrees.aau.dk/">
+        <owl:imports rdf:resource="http://www.w3.org/TR/skos-reference/skos-owl1-dl.rdf"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://cadastraltrees.aau.dk/Area -->
+
+    <owl:NamedIndividual rdf:about="https://cadastraltrees.aau.dk/Area">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://cadastraltrees.aau.dk/SpatialFeature"/>
+        <skos:inScheme rdf:resource="https://cadastraltrees.aau.dk/#LectureConcepts"/>
+        <skos:prefLabel xml:lang="en">Area</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://cadastraltrees.aau.dk/BoundaryMark -->
+
+    <owl:NamedIndividual rdf:about="https://cadastraltrees.aau.dk/BoundaryMark">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://cadastraltrees.aau.dk/Marker"/>
+        <skos:inScheme rdf:resource="https://cadastraltrees.aau.dk/#LectureConcepts"/>
+        <skos:prefLabel xml:lang="en">Boundary mark</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://cadastraltrees.aau.dk/CadastralParcelIdentifier -->
+
+    <owl:NamedIndividual rdf:about="https://cadastraltrees.aau.dk/CadastralParcelIdentifier">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://cadastraltrees.aau.dk/PlaceName"/>
+        <skos:inScheme rdf:resource="https://cadastraltrees.aau.dk/#LectureConcepts"/>
+        <skos:prefLabel xml:lang="en">Cadastral parcel identifier</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://cadastraltrees.aau.dk/County -->
+
+    <owl:NamedIndividual rdf:about="https://cadastraltrees.aau.dk/County">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://cadastraltrees.aau.dk/TerritorialUnits"/>
+        <skos:inScheme rdf:resource="https://cadastraltrees.aau.dk/#LectureConcepts"/>
+        <skos:narrower rdf:resource="https://cadastraltrees.aau.dk/Municipality"/>
+        <skos:prefLabel xml:lang="en">County</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://cadastraltrees.aau.dk/CourtDistrict -->
+
+    <owl:NamedIndividual rdf:about="https://cadastraltrees.aau.dk/CourtDistrict">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://cadastraltrees.aau.dk/Jurisdiction"/>
+        <skos:inScheme rdf:resource="https://cadastraltrees.aau.dk/#LectureConcepts"/>
+        <skos:prefLabel xml:lang="en">Court district</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://cadastraltrees.aau.dk/Diocese -->
+
+    <owl:NamedIndividual rdf:about="https://cadastraltrees.aau.dk/Diocese">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://cadastraltrees.aau.dk/TerritorialUnits"/>
+        <skos:inScheme rdf:resource="https://cadastraltrees.aau.dk/#LectureConcepts"/>
+        <skos:narrower rdf:resource="https://cadastraltrees.aau.dk/Parish"/>
+        <skos:prefLabel xml:lang="en">Diocese</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://cadastraltrees.aau.dk/District -->
+
+    <owl:NamedIndividual rdf:about="https://cadastraltrees.aau.dk/District">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://cadastraltrees.aau.dk/Region"/>
+        <skos:inScheme rdf:resource="https://cadastraltrees.aau.dk/#LectureConcepts"/>
+        <skos:prefLabel xml:lang="en">District</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://cadastraltrees.aau.dk/Dwelling -->
+
+    <owl:NamedIndividual rdf:about="https://cadastraltrees.aau.dk/Dwelling">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://cadastraltrees.aau.dk/SpatialFeature"/>
+        <skos:inScheme rdf:resource="https://cadastraltrees.aau.dk/#LectureConcepts"/>
+        <skos:prefLabel xml:lang="en">Dwelling</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://cadastraltrees.aau.dk/GeodeticCoordinateSystem -->
+
+    <owl:NamedIndividual rdf:about="https://cadastraltrees.aau.dk/GeodeticCoordinateSystem">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://cadastraltrees.aau.dk/SpatialReferenceFrame"/>
+        <skos:inScheme rdf:resource="https://cadastraltrees.aau.dk/#LectureConcepts"/>
+        <skos:prefLabel xml:lang="en">Geodetic coordinate system</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://cadastraltrees.aau.dk/Jurisdiction -->
+
+    <owl:NamedIndividual rdf:about="https://cadastraltrees.aau.dk/Jurisdiction">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://cadastraltrees.aau.dk/TerritorialUnits"/>
+        <skos:inScheme rdf:resource="https://cadastraltrees.aau.dk/#LectureConcepts"/>
+        <skos:narrower rdf:resource="https://cadastraltrees.aau.dk/CourtDistrict"/>
+        <skos:prefLabel xml:lang="en">Jurisdiction</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://cadastraltrees.aau.dk/Location -->
+
+    <owl:NamedIndividual rdf:about="https://cadastraltrees.aau.dk/Location">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:narrower rdf:resource="https://cadastraltrees.aau.dk/PlaceName"/>
+        <skos:topConceptOf rdf:resource="https://cadastraltrees.aau.dk/#LectureConcepts"/>
+        <skos:prefLabel xml:lang="en">Location</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://cadastraltrees.aau.dk/Marker -->
+
+    <owl:NamedIndividual rdf:about="https://cadastraltrees.aau.dk/Marker">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:narrower rdf:resource="https://cadastraltrees.aau.dk/BoundaryMark"/>
+        <skos:narrower rdf:resource="https://cadastraltrees.aau.dk/SignPlate"/>
+        <skos:narrower rdf:resource="https://cadastraltrees.aau.dk/StreetSign"/>
+        <skos:topConceptOf rdf:resource="https://cadastraltrees.aau.dk/#LectureConcepts"/>
+        <skos:prefLabel xml:lang="en">Marker</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://cadastraltrees.aau.dk/Municipality -->
+
+    <owl:NamedIndividual rdf:about="https://cadastraltrees.aau.dk/Municipality">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://cadastraltrees.aau.dk/County"/>
+        <skos:inScheme rdf:resource="https://cadastraltrees.aau.dk/#LectureConcepts"/>
+        <skos:prefLabel xml:lang="en">Municipality</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://cadastraltrees.aau.dk/Parish -->
+
+    <owl:NamedIndividual rdf:about="https://cadastraltrees.aau.dk/Parish">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://cadastraltrees.aau.dk/Diocese"/>
+        <skos:inScheme rdf:resource="https://cadastraltrees.aau.dk/#LectureConcepts"/>
+        <skos:prefLabel xml:lang="en">Parish</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://cadastraltrees.aau.dk/PlaceName -->
+
+    <owl:NamedIndividual rdf:about="https://cadastraltrees.aau.dk/PlaceName">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://cadastraltrees.aau.dk/Location"/>
+        <skos:inScheme rdf:resource="https://cadastraltrees.aau.dk/#LectureConcepts"/>
+        <skos:narrower rdf:resource="https://cadastraltrees.aau.dk/CadastralParcelIdentifier"/>
+        <skos:narrower rdf:resource="https://cadastraltrees.aau.dk/PostAddress"/>
+        <skos:narrower rdf:resource="https://cadastraltrees.aau.dk/StreetName"/>
+        <skos:prefLabel xml:lang="en">Place name</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://cadastraltrees.aau.dk/PostAddress -->
+
+    <owl:NamedIndividual rdf:about="https://cadastraltrees.aau.dk/PostAddress">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://cadastraltrees.aau.dk/PlaceName"/>
+        <skos:inScheme rdf:resource="https://cadastraltrees.aau.dk/#LectureConcepts"/>
+        <skos:prefLabel xml:lang="en">Post address</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://cadastraltrees.aau.dk/Region -->
+
+    <owl:NamedIndividual rdf:about="https://cadastraltrees.aau.dk/Region">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://cadastraltrees.aau.dk/TerritorialUnits"/>
+        <skos:inScheme rdf:resource="https://cadastraltrees.aau.dk/#LectureConcepts"/>
+        <skos:narrower rdf:resource="https://cadastraltrees.aau.dk/District"/>
+        <skos:prefLabel xml:lang="en">Region</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://cadastraltrees.aau.dk/RoadNetwork -->
+
+    <owl:NamedIndividual rdf:about="https://cadastraltrees.aau.dk/RoadNetwork">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://cadastraltrees.aau.dk/SpatialReferenceFrame"/>
+        <skos:inScheme rdf:resource="https://cadastraltrees.aau.dk/#LectureConcepts"/>
+        <skos:narrower rdf:resource="https://cadastraltrees.aau.dk/RoadSegment"/>
+        <skos:prefLabel xml:lang="en">Road network</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://cadastraltrees.aau.dk/RoadSegment -->
+
+    <owl:NamedIndividual rdf:about="https://cadastraltrees.aau.dk/RoadSegment">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://cadastraltrees.aau.dk/RoadNetwork"/>
+        <skos:inScheme rdf:resource="https://cadastraltrees.aau.dk/#LectureConcepts"/>
+        <skos:prefLabel xml:lang="en">Road segment</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://cadastraltrees.aau.dk/SignPlate -->
+
+    <owl:NamedIndividual rdf:about="https://cadastraltrees.aau.dk/SignPlate">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://cadastraltrees.aau.dk/Marker"/>
+        <skos:inScheme rdf:resource="https://cadastraltrees.aau.dk/#LectureConcepts"/>
+        <skos:prefLabel xml:lang="en">Sign plate</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://cadastraltrees.aau.dk/SpatialReferenceFrame -->
+
+    <owl:NamedIndividual rdf:about="https://cadastraltrees.aau.dk/SpatialReferenceFrame">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:narrower rdf:resource="https://cadastraltrees.aau.dk/GeodeticCoordinateSystem"/>
+        <skos:narrower rdf:resource="https://cadastraltrees.aau.dk/RoadNetwork"/>
+        <skos:topConceptOf rdf:resource="https://cadastraltrees.aau.dk/#LectureConcepts"/>
+        <skos:prefLabel xml:lang="en">Spatial reference frame</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://cadastraltrees.aau.dk/StreetName -->
+
+    <owl:NamedIndividual rdf:about="https://cadastraltrees.aau.dk/StreetName">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://cadastraltrees.aau.dk/PlaceName"/>
+        <skos:inScheme rdf:resource="https://cadastraltrees.aau.dk/#LectureConcepts"/>
+        <skos:prefLabel xml:lang="en">Street name</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://cadastraltrees.aau.dk/StreetSign -->
+
+    <owl:NamedIndividual rdf:about="https://cadastraltrees.aau.dk/StreetSign">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://cadastraltrees.aau.dk/Marker"/>
+        <skos:inScheme rdf:resource="https://cadastraltrees.aau.dk/#LectureConcepts"/>
+        <skos:prefLabel xml:lang="en">Street sign</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://cadastraltrees.aau.dk/TerritorialUnits -->
+
+    <owl:NamedIndividual rdf:about="https://cadastraltrees.aau.dk/TerritorialUnits">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://cadastraltrees.aau.dk/#LectureConcepts"/>
+        <skos:narrower rdf:resource="https://cadastraltrees.aau.dk/County"/>
+        <skos:narrower rdf:resource="https://cadastraltrees.aau.dk/Diocese"/>
+        <skos:narrower rdf:resource="https://cadastraltrees.aau.dk/Jurisdiction"/>
+        <skos:narrower rdf:resource="https://cadastraltrees.aau.dk/Region"/>
+        <skos:topConceptOf rdf:resource="https://cadastraltrees.aau.dk/#LectureConcepts"/>
+        <skos:prefLabel xml:lang="en">Territorial units</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://cadastraltrees.aau.dk/UnitOfRealProperty -->
+
+    <owl:NamedIndividual rdf:about="https://cadastraltrees.aau.dk/UnitOfRealProperty">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://cadastraltrees.aau.dk/SpatialFeature"/>
+        <skos:inScheme rdf:resource="https://cadastraltrees.aau.dk/#LectureConcepts"/>
+        <skos:prefLabel xml:lang="en">Unit of real property</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://cadastraltrees.aau.dk/#LectureConcepts -->
+
+    <owl:NamedIndividual rdf:about="https://cadastraltrees.aau.dk/#LectureConcepts">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <skos:hasTopConcept rdf:resource="https://cadastraltrees.aau.dk/Location"/>
+        <skos:hasTopConcept rdf:resource="https://cadastraltrees.aau.dk/Marker"/>
+        <skos:hasTopConcept rdf:resource="https://cadastraltrees.aau.dk/SpatialReferenceFrame"/>
+        <skos:hasTopConcept rdf:resource="https://cadastraltrees.aau.dk/TerritorialUnits"/>
+        <skos:hasTopConcept rdf:resource="https://cadastraltrees.aau.dk/SpatialFeature"/>
+        <skos:prefLabel xml:lang="en">Lecture Concepts</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://cadastraltrees.aau.dk/Settlement -->
+
+    <owl:NamedIndividual rdf:about="https://cadastraltrees.aau.dk/Settlement">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://cadastraltrees.aau.dk/SpatialFeature"/>
+        <skos:inScheme rdf:resource="https://cadastraltrees.aau.dk/#LectureConcepts"/>
+        <skos:prefLabel xml:lang="en">Settlement</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://cadastraltrees.aau.dk/SpatialFeature -->
+
+    <owl:NamedIndividual rdf:about="https://cadastraltrees.aau.dk/SpatialFeature">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:narrower rdf:resource="https://cadastraltrees.aau.dk/Area"/>
+        <skos:narrower rdf:resource="https://cadastraltrees.aau.dk/Dwelling"/>
+        <skos:narrower rdf:resource="https://cadastraltrees.aau.dk/UnitOfRealProperty"/>
+        <skos:narrower rdf:resource="https://cadastraltrees.aau.dk/Settlement"/>
+        <skos:topConceptOf rdf:resource="https://cadastraltrees.aau.dk/#LectureConcepts"/>
+        <skos:prefLabel xml:lang="en">Spatial feature</skos:prefLabel>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
